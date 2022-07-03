@@ -1,4 +1,4 @@
-//this script was made by breadNeDev, but im NOT SURE IN THAT.
+//this script was made by bread, but im NOT SURE IN THAT.
 
 const Armceptor = {
 	replace(ptr, arr) {
