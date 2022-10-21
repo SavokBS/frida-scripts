@@ -182,7 +182,7 @@ function setup() {
             if (ntohs(Memory.readU16(args[1].add(2))) === 9339) {
                 cache.fd = args[0].toInt32();
                 if (cache.options.redirectHost) {
-                    var host = Memory.allocUtf8String("127.0.0,1"); //ip here i guess
+                    var host = Memory.allocUtf8String("127.0.0.1"); //ip here i guess
                     Memory.writeInt(args[1].add(4), inet_addr(host));
                 }
                 setupMessaging();
